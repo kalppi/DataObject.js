@@ -36,6 +36,9 @@ console.log(`I think you were called ${u.fullName} originally...`);
 ## Events
 
 ### save
+
+DataObject.js doens't handle permanent data storage. You have to catch `save` events and handle the storage yourself.
+
 ```javascript
 DataObject.on('save', () => {
 	console.log('Let\'s catch every save call!');
