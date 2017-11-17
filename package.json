@@ -1,0 +1,19 @@
+{
+  "name": "dataobject.js",
+  "version": "1.0.0",
+  "description": "class User extends DataObject { \tfullName() { \t\treturn this.firstName + \" \" + this.lastName; \t} }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kalppi/DataObject.js.git"
+  },
+  "author": "Jarno Luukkonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalppi/DataObject.js/issues"
+  },
+  "homepage": "https://github.com/kalppi/DataObject.js#readme"
+}
